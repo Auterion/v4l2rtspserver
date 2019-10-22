@@ -1,0 +1,14 @@
+Source: v4l2rtspserver
+Section: unknown
+Priority: optional
+Maintainer: Quentin Vecchio <quentin@auterion.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://github.com/Auterion/v4l2rtspserver/tree/deb_pkg
+Vcs-Git: git@github.com:Auterion/v4l2rtspserver.git
+
+Package: v4l2rtspserver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v4l2rtspserver
